@@ -2,24 +2,28 @@
   "participant_id": {
     "LongName": "",
     "Description": "Their subject number",
-    "Levels": {
-    },
+    "Levels": {},
     "Units": "",
-    "TermURL": "http://www.todo.com/fixme"
+    "TermURL": "http://www.todo.com/fixme",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
+    }
   },
   "vviq": {
     "LongName": "VVIQ score",
     "Description": "The participant's average vividness of visual imagery questionnaire score",
-    "Levels": {
-    },
+    "Levels": {},
     "Units": "",
     "TermURL": "http://www.todo.com/fixme"
   },
   "bais": {
     "LongName": "Bucknell Auditory Imagery Scale",
     "Description": "The participant's average vividness of auditory imagery questionnaire score",
-    "Levels": {
-    },
+    "Levels": {},
     "Units": "",
     "TermURL": "http://www.todo.com/fixme"
   },
@@ -38,8 +42,8 @@
     "LongName": "",
     "Description": "Refers to whether participant has normal or corrected vision or has vision impairment",
     "Levels": {
-      "n":"no",
-      "y":"yes"
+      "n": "no",
+      "y": "yes"
     },
     "Units": "",
     "TermURL": "http://www.todo.com/fixme"
@@ -48,10 +52,13 @@
     "LongName": "",
     "Description": "Refers to whether participant has normal or corrected hearing or has hearing impairment",
     "Levels": {
-      "n":"no",
-      "y":"yes"
+      "n": "no",
+      "y": "yes"
     },
     "Units": "",
     "TermURL": "http://www.todo.com/fixme"
+  },
+  " vision_impaired": {
+    "Description": ""
   }
 }
